@@ -46,8 +46,8 @@ background-color: none;
 
 .img-right {
 margin-top: 40px;
-height: 25em;
-width: 25em;
+width: 100%;
+max-width: 500px;
 }
 
 .first-answer {
@@ -55,7 +55,7 @@ margin-top: 40px;
 }
 
 .start-button {
-padding: 25px;
+padding: .25em 7em .25em 7em;
 background-color: #9B0B00;
 border: none;
 }
@@ -65,7 +65,7 @@ background-color: #FF1200;
 }
 
 .reset-button {
-padding: 25px;
+padding: .25em 7em .25em 7em;
 background-color: #9B0B00;
 border: none;
 }

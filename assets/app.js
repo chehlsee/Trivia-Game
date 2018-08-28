@@ -5,7 +5,7 @@ var trivia = {
   correctCounter: 0,
   inCorrectCounter: 0,
   unAnsweredCounter: 0,
-  clickSound: new Audio("file:///Users/chehlsee/Music/iTunes/iTunes%20Media/Music/Unknown%20Artist/Unknown%20Album/Plastic_Bottle_Crush-Simon_Craggs-1401313467.mp3"),
+  clickSound: new Audio("/Users/chehlsee/Music/iTunes/iTunes Media/Music/Unknown Artist/Unknown Album/Plastic_Bottle_Crush-Simon_Craggs-1401313467.mp3"),
   gameHTML: "",
   questionsArray: [
                   "The amount of plastic thrown away each year is enough to circle the Earth how many times?", "How many pounds of plastic does the average American throw away per year?", "How many water bottles do Americans throw away per year?", "The Great Pacific Garbage Patch is located in the North Pacific Gyre off the coast of California and is the largest ocean garbage site in the world. This floating mass of plastic is twice the size of what U.S. state?", "Is it true that 93% of Americans ages six or older test positive for BPA (a chemical in plastic)?", "How many plastic straws are used every day in America?", "There is more microplastic in the ocean than there are stars in the Milky Way. T/F"],
@@ -14,7 +14,7 @@ var trivia = {
   correctAnswers: [
                   "A. 4 times", "B. 185 lbs", "D. 35 billion", "A. Texas", "A. Yes","C. 500 million", "A. True"],
   imageArray: [
-              "<img class='center-block img-right ' src='https://media.giphy.com/media/f5PqvNrx2dcNq/giphy.gif'>", "<img class='center-block img-right' src='https://media.giphy.com/media/5zw6BxBDGXF3mJ2krE/giphy.gif'>", "<img class='center-block img-right' src='https://media.giphy.com/media/26uf4uFMIilb8n6WQ/giphy.gif'>", "<img class='center-block img-right' src='https://media.giphy.com/media/13D92S9ihE1NbW/giphy.gif'>", "<img class='center-block img-right' src='https://media.giphy.com/media/3orif5sSDNieQFRCqQ/giphy.gif'>", "<img class='center-block img-right' src='https://media.giphy.com/media/61Sk26nVLSyREvwl4g/giphy.gif'>", "<img class='center-block img-right' src='https://media0.giphy.com/media/xSzWaLf7hrgBO/200w.webp'>"],
+              "<img class='center-block img-right' src='https://media.giphy.com/media/f5PqvNrx2dcNq/giphy.gif'>", "<img class='center-block img-right' src='https://media.giphy.com/media/5zw6BxBDGXF3mJ2krE/giphy.gif'>", "<img class='center-block img-right' src='https://media.giphy.com/media/26uf4uFMIilb8n6WQ/giphy.gif'>", "<img class='center-block img-right' src='https://media.giphy.com/media/13D92S9ihE1NbW/giphy.gif'>", "<img class='center-block img-right' src='https://media.giphy.com/media/3orif5sSDNieQFRCqQ/giphy.gif'>", "<img class='center-block img-right' src='https://media.giphy.com/media/61Sk26nVLSyREvwl4g/giphy.gif'>", "<img class='center-block img-right' src='https://media0.giphy.com/media/xSzWaLf7hrgBO/200w.webp'>"],
   clock: "",
   questionCounter: 0,
   timeCounter: 20,
@@ -60,21 +60,21 @@ function win(){
   trivia.correctCounter ++;
   trivia.gameHTML = "<p class='text-center'> Time Remaining: <span class='timer'>" + trivia.timeCounter + "</span></p>" + "<p class='text-center'>Correct! The answer is: " + trivia.correctAnswers[trivia.questionCounter] + "</p>" + trivia.imageArray[trivia.questionCounter];
   $(".main-area").html(trivia.gameHTML);
-  setTimeout(wait, 4000);
+  setTimeout(wait, 10000000);
 };
 
 function loss(){
   trivia.inCorrectCounter ++;
   trivia.gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + trivia.timeCounter + "</span></p>" + "<p class='text-center'>Wrong! The correct answer is: "+ trivia.correctAnswers[trivia.questionCounter] + "</p>" + trivia.imageArray[trivia.questionCounter];
 	$(".main-area").html(trivia.gameHTML);
-	setTimeout(wait, 4000);
+	setTimeout(wait, 10000000);
 };
 
 function timeOutLoss(){
   trivia.unAnsweredCounter ++;
   trivia.gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + trivia.timeCounter + "</span></p>" + "<p class='text-center'>You ran out of time!  The correct answer was: " + trivia.correctAnswers[trivia.questionCounter] + "</p>" + trivia.imageArray[trivia.questionCounter];
 	$(".main-area").html(trivia.gameHTML);
-	setTimeout(wait, 4000);
+	setTimeout(wait, 10000000);
 };
 
 function finalScreen(){
