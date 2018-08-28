@@ -14,7 +14,7 @@ var trivia = {
   correctAnswers: [
                   "A. 4 times", "B. 185 lbs", "D. 35 billion", "A. Texas", "A. Yes","C. 500 million", "A. True"],
   imageArray: [
-              "<img class='center-block img-right' src='https://media.giphy.com/media/f5PqvNrx2dcNq/giphy.gif'>", "<img class='center-block img-right' src='https://media.giphy.com/media/5zw6BxBDGXF3mJ2krE/giphy.gif'>", "<img class='center-block img-right' src='https://media.giphy.com/media/26uf4uFMIilb8n6WQ/giphy.gif'>", "<img class='center-block img-right' src='https://media.giphy.com/media/13D92S9ihE1NbW/giphy.gif'>", "<img class='center-block img-right' src='https://media.giphy.com/media/3orif5sSDNieQFRCqQ/giphy.gif'>", "<img class='center-block img-right' src='https://media.giphy.com/media/61Sk26nVLSyREvwl4g/giphy.gif'>", "<img class='center-block img-right' src='https://media0.giphy.com/media/xSzWaLf7hrgBO/200w.webp'>"],
+              "<img class='center-block img-right main-area col-xs-12 col-sm-3 col-sm-offset-1 col-md-3 col-md-offset-2' src='https://media.giphy.com/media/f5PqvNrx2dcNq/giphy.gif'>", "<img class='center-block img-right' src='https://media.giphy.com/media/5zw6BxBDGXF3mJ2krE/giphy.gif'>", "<img class='center-block img-right' src='https://media.giphy.com/media/26uf4uFMIilb8n6WQ/giphy.gif'>", "<img class='center-block img-right' src='https://media.giphy.com/media/13D92S9ihE1NbW/giphy.gif'>", "<img class='center-block img-right' src='https://media.giphy.com/media/3orif5sSDNieQFRCqQ/giphy.gif'>", "<img class='center-block img-right' src='https://media.giphy.com/media/61Sk26nVLSyREvwl4g/giphy.gif'>", "<img class='center-block img-right' src='https://media0.giphy.com/media/xSzWaLf7hrgBO/200w.webp'>"],
   clock: "",
   questionCounter: 0,
   timeCounter: 20,
