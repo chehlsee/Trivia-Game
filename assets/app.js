@@ -60,21 +60,21 @@ function win(){
   trivia.correctCounter ++;
   trivia.gameHTML = "<p class='text-center'> Time Remaining: <span class='timer'>" + trivia.timeCounter + "</span></p>" + "<p class='text-center'>Correct! The answer is: " + trivia.correctAnswers[trivia.questionCounter] + "</p>" + trivia.imageArray[trivia.questionCounter];
   $(".main-area").html(trivia.gameHTML);
-  setTimeout(wait, 10000000);
+  setTimeout(wait, 6000);
 };
 
 function loss(){
   trivia.inCorrectCounter ++;
   trivia.gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + trivia.timeCounter + "</span></p>" + "<p class='text-center'>Wrong! The correct answer is: "+ trivia.correctAnswers[trivia.questionCounter] + "</p>" + trivia.imageArray[trivia.questionCounter];
 	$(".main-area").html(trivia.gameHTML);
-	setTimeout(wait, 10000000);
+	setTimeout(wait, 6000);
 };
 
 function timeOutLoss(){
   trivia.unAnsweredCounter ++;
   trivia.gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + trivia.timeCounter + "</span></p>" + "<p class='text-center'>You ran out of time!  The correct answer was: " + trivia.correctAnswers[trivia.questionCounter] + "</p>" + trivia.imageArray[trivia.questionCounter];
 	$(".main-area").html(trivia.gameHTML);
-	setTimeout(wait, 10000000);
+	setTimeout(wait, 6000);
 };
 
 function finalScreen(){
