@@ -5,7 +5,7 @@ var trivia = {
   correctCounter: 0,
   inCorrectCounter: 0,
   unAnsweredCounter: 0,
-  clickSound: new Audio("/Users/chehlsee/Music/iTunes/iTunes Media/Music/Unknown Artist/Unknown Album/Plastic_Bottle_Crush-Simon_Craggs-1401313467.mp3"),
+  clickSound: new Audio("./assets/plasticBottle.mp3"),
   gameHTML: "",
   questionsArray: [
                   "The amount of plastic thrown away each year is enough to circle the Earth how many times?", "How many pounds of plastic does the average American throw away per year?", "How many water bottles do Americans throw away per year?", "The Great Pacific Garbage Patch is located in the North Pacific Gyre off the coast of California and is the largest ocean garbage site in the world. This floating mass of plastic is twice the size of what U.S. state?", "Is it true that 93% of Americans ages six or older test positive for BPA (a chemical in plastic)?", "How many plastic straws are used every day in America?", "There is more microplastic in the ocean than there are stars in the Milky Way. T/F"],

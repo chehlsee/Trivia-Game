@@ -1,5 +1,7 @@
 body {
-  background-image: url("https://images.unsplash.com/photo-1527566406204-827440d86bd3?ixlib=rb-0.3.5&s=871b719d86b23eb755d8cade57bf60e2&auto=format&fit=crop&w=1650&q=80");
+  /* background-image: url("https://images.unsplash.com/photo-1527566406204-827440d86bd3?ixlib=rb-0.3.5&s=871b719d86b23eb755d8cade57bf60e2&auto=format&fit=crop&w=1650&q=80"); */
+  background-image: url("  https://media.giphy.com/media/l2QEbVSgs4FYo8POo/giphy.gif");
+
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
