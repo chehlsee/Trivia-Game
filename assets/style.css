@@ -1,13 +1,20 @@
-body {
+.background {
   /* background-image: url("https://images.unsplash.com/photo-1527566406204-827440d86bd3?ixlib=rb-0.3.5&s=871b719d86b23eb755d8cade57bf60e2&auto=format&fit=crop&w=1650&q=80"); */
   background-image: url("  https://media.giphy.com/media/l2QEbVSgs4FYo8POo/giphy.gif");
-
+  height: 100%;
+  width: 100%;
+  position: fixed;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  color: black
+  color: black;
+  z-index: -1;
 }
 
+body, html {
+  width: 100%;
+  height: 100%;
+}
 .jumbotron {
 box-sizing: border-box;
 margin: 50px 50px 50px 50px;
